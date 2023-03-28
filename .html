@@ -16,7 +16,46 @@
       </nav>
     </header>
     <main>
-      <h2>Menu</h2>
+       <select id="search-option">
+        <option value="choose">Choose..</option>
+        <option value="all">Everyone</option>
+        <option value="celiac">Celiac Disease Patients</option>
+      </select>
+    
+     
+
+      <ul class="categories">
+        <li class="meat">
+          <h3>Meat Dishes</h3>
+          <p>Meals that contain meat.</p>
+          <form>
+            <button type="submit" class="order-button" data-item="Meat">
+              Take a look
+            </button>
+          </form>
+        </li>
+        <li class="vegetable">
+          <h3>Vegetable Dishes</h3>
+          <p>
+            Meals that contain vegetables.
+          </p>
+          
+            <button type="submit" class="order-button" data-item="Vegetables">
+              Take a look
+            </button>
+          </form>
+        </li>
+        <li>
+         
+          <h3>Desserts</h3>
+          <p>Desserts that contain gluten-free ingredients.</p>
+          
+            <button type="submit" class="order-button" data-item="Deserts">
+              Take a look
+            </button>
+          </form>
+        </li>
+      </ul>
       <ul class="menu">
         <li>
           <img src="burger.jpg" alt="Burger">
